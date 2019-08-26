@@ -3,23 +3,23 @@
     <header>
         <b-navbar class="is-dark">
             <template slot="start">
-                <b-navbar-item href="/">
-                    Home
+                <b-navbar-item>
+                    <router-link to="/">Home</router-link>
                 </b-navbar-item>
-                <b-navbar-item href="/feedback">
-                    AllUserFeedback
+                <b-navbar-item>
+                    <router-link to="/feedback">AllUserFeedback</router-link>
                 </b-navbar-item>
-                <b-navbar-item href="/feedback/group">
-                    GroupUserFeedback
+                <b-navbar-item>
+                    <router-link to="/feedback/group">GroupUserFeedback</router-link>
                 </b-navbar-item>
-                <b-navbar-item href="/feedback/group">
-                    SingleUserFeedback
+                <b-navbar-item>
+                    <router-link to="/feedback/group">SingleUserFeedback</router-link>
                 </b-navbar-item>
-                <b-navbar-item href="/stats/latest">
-                    Latest
+                <b-navbar-item>
+                    <router-link to="/stats/latest">Latest</router-link>
                 </b-navbar-item>
                 <b-navbar-item href="/stats">
-                    Overall
+                    <router-link to="/stats">Overall</router-link>
                 </b-navbar-item>
             </template>
             <template slot="end">
