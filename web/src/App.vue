@@ -6,31 +6,26 @@
                 <b-navbar-item href="/">
                     Home
                 </b-navbar-item>
-                <b-nav-item-dropdown text="Feedback">
-                    <b-dropdown-item href="/feedback">
-                        AllUserFeedback
-                    </b-dropdown-item>
-                    <b-dropdown-item href="/feedback/group">
-                        GroupUserFeedback
-                    </b-dropdown-item>
-                    <b-dropdown-item href="/feedback/group">
-                        SingleUserFeedback
-                    </b-dropdown-item>
-                </b-nav-item-dropdown>
-                <b-nav-item-dropdown text="Stats">
-                    <b-dropdown-item href="/stats/latest">
-                        Latest
-                    </b-dropdown-item>
-                    <b-dropdown-item href="/stats">
-                        Overall
-                    </b-dropdown-item>
-                </b-nav-item-dropdown>
+                <b-navbar-item href="/feedback">
+                    AllUserFeedback
+                </b-navbar-item>
+                <b-navbar-item href="/feedback/group">
+                    GroupUserFeedback
+                </b-navbar-item>
+                <b-navbar-item href="/feedback/group">
+                    SingleUserFeedback
+                </b-navbar-item>
+                <b-navbar-item href="/stats/latest">
+                    Latest
+                </b-navbar-item>
+                <b-navbar-item href="/stats">
+                    Overall
+                </b-navbar-item>
             </template>
             <template slot="end">
                 <b-navbar-item>
                     Login
                 </b-navbar-item>
-                <navbar-burger></navbar-burger>
             </template>
         </b-navbar>
         <section class="hero is-dark">
