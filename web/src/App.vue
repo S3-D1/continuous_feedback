@@ -3,34 +3,29 @@
     <header>
         <b-navbar class="is-dark">
             <template slot="start">
-                <b-navbar-item href="/">
-                    Home
+                <b-navbar-item>
+                    <router-link to="/">Home</router-link>
                 </b-navbar-item>
-                <b-nav-item-dropdown text="Feedback">
-                    <b-dropdown-item href="/feedback">
-                        AllUserFeedback
-                    </b-dropdown-item>
-                    <b-dropdown-item href="/feedback/group">
-                        GroupUserFeedback
-                    </b-dropdown-item>
-                    <b-dropdown-item href="/feedback/group">
-                        SingleUserFeedback
-                    </b-dropdown-item>
-                </b-nav-item-dropdown>
-                <b-nav-item-dropdown text="Stats">
-                    <b-dropdown-item href="/stats/latest">
-                        Latest
-                    </b-dropdown-item>
-                    <b-dropdown-item href="/stats">
-                        Overall
-                    </b-dropdown-item>
-                </b-nav-item-dropdown>
+                <b-navbar-item>
+                    <router-link to="/feedback">AllUserFeedback</router-link>
+                </b-navbar-item>
+                <b-navbar-item>
+                    <router-link to="/feedback/group">GroupUserFeedback</router-link>
+                </b-navbar-item>
+                <b-navbar-item>
+                    <router-link to="/feedback/group">SingleUserFeedback</router-link>
+                </b-navbar-item>
+                <b-navbar-item>
+                    <router-link to="/stats/latest">Latest</router-link>
+                </b-navbar-item>
+                <b-navbar-item href="/stats">
+                    <router-link to="/stats">Overall</router-link>
+                </b-navbar-item>
             </template>
             <template slot="end">
                 <b-navbar-item>
                     Login
                 </b-navbar-item>
-                <navbar-burger></navbar-burger>
             </template>
         </b-navbar>
         <section class="hero is-dark">

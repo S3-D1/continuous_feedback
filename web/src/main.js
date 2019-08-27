@@ -1,12 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
 import App from './App.vue'
 import AllUserFeedback from "@/components/AllUserFeedback";
 import GroupUserFeedback from "@/components/GroupUserFeedback";
 import SingleUserFeedback from "@/components/SingleUserFeedback";
 import LatestStats from "@/components/LatestStats";
 import HistoricalStats from "@/components/HistoricalStats";
+
 Vue.use(Router)
+Vue.use(Buefy)
 
 const router = new Router({
   routes:[
