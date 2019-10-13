@@ -26,7 +26,8 @@ const router = new Router({
         props:true,
       },
       {
-        path:'/feedback/user/:id',
+        //path:'/feedback/user/:id',<
+        path:'/feedback/user',
         name:'user',
         component:SingleUserFeedback,
         props:true,

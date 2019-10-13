@@ -13,7 +13,7 @@
                     <router-link to="/feedback/group">GroupUserFeedback</router-link>
                 </b-navbar-item>
                 <b-navbar-item>
-                    <router-link to="/feedback/group">SingleUserFeedback</router-link>
+                    <router-link to="/feedback/user">SingleUserFeedback</router-link>
                 </b-navbar-item>
                 <b-navbar-item>
                     <router-link to="/stats/latest">Latest</router-link>
